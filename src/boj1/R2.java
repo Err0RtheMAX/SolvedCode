@@ -1,0 +1,15 @@
+package boj1;
+
+import java.util.Scanner;
+import java.io.IOException;
+
+public class R2{
+    public static void main(String[] args) throws IOException{
+        Scanner scan = new Scanner(System.in);
+
+        int r1 = scan.nextInt();
+        int s = scan.nextInt();
+
+        System.out.println(2*s - r1);
+    }
+}

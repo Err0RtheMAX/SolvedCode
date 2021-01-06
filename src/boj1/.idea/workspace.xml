@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6abe92a-1684-4522-ae03-570dd765530a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SolvedCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdivideB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AfterParty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AminusB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AplusB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AplusB2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ5554.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CompareNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Copyright.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoodOrBad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HexCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LongCaculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OctaBInary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/R2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Safari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuperRich2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerifyNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../boj2/BOJ6749.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SolvedCode2/src/BOJ2480.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SolvedCode2/src/BOJ6749.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SolvedCode2/src/BOJ7287.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SolvedCode3/src/BOJ2480.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SolvedCode3/src/BOJ2525.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SolvedCode3/src/BOJ2588.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SolvedCode3/src/BOJ2752.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SolvedCode3/src/BOJ3004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SolvedCode3/src/ComputerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../김민기/.idea/김민기.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../김민기/eric/자바스터디/자바스터디.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../김민기/자바스터디/.idea/자바스터디.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../eric/자바스터디/src/Main/Car.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1maG1TtXcviRnbq2WgRWyKkQhcJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6abe92a-1684-4522-ae03-570dd765530a" name="Default Changelist" comment="" />
+      <created>1609724072806</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609724072806</updated>
+      <workItem from="1609724074148" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
