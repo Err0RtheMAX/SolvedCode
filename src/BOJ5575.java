@@ -1,58 +1,48 @@
 import java.io.*;
 import java.util.StringTokenizer;
 
-class Time {
-    int[] time = new int[6];
-    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-    StringTokenizer st;
+public class BOJ5575 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 
-    {
-        try {
-            st = new StringTokenizer(br.readLine(), " ");
-        }
-        catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+        int[] time = new int[18];
 
-    public void inputTime() throws IOException {
-        for (int i = 0; i < time.length; i++) {
+        for (int i = 0; i < time.length; i++)
             time[i] = Integer.parseInt(st.nextToken());
-            this.time[i] = time[i];
-        }
-    }
+
+        for (int i = 0; i < 3; i++) {
+            time[6 * i] = time[6 * i + 3] - time[6 * i]; // hour
+            time[6 * i + 1] = time[6 * i + 4] - time[6 * i + 1]; // min
+            time[6 * i + 2] = time[6 * i + 5] - time[6 * i + 2]; // sec
 
 
-    public void printTime() throws IOException {
-        for (int i = 0; i < time.length; i++) {
-            for (int j = 0; j < time.length; j++) {
-            bw.write(String.valueOf(time[j]));
-            bw.write(" ");
+
+            if (time[6 * i + 2] < 0) {
+
+                if(time[6 * i + 1] < 0 && time[6 * i + 2] < 0){
+                    time[6 * i + 3] -= 1;
+                    time[6 * i + 1] += 60;
+                }
+                else {
+                    time[6 * i] -= 1;
+                    time[6 * i + 2] += 60;
+                }
+            }
+
+            if (time[6 * i + 1] < 0) {
+                time[6 * i + 3] -= 1;
+                time[6 * i + 4] += 60;
+            }
         }
-            bw.newLine();
-    }
+
+        for (int j = 0; j < 3; j++) {
+            System.out.println(time[6 * j] + " " + time[6 * j + 1] + " " + time[6 * j + 2]);
+        }
+
         br.close();
         bw.close();
     }
-}
 
-
-
-public class BOJ5575 {
-    public static void main(String[] args) throws IOException {
-        Time time1 = new Time();
-        Time time2 = new Time();
-        Time time3 = new Time();
-
-        time1.inputTime();
-        time2.inputTime();
-        time3.inputTime();
-
-        time1.printTime();
-        time2.printTime();
-        time3.printTime();
-
-
-    }
 }
