@@ -14,16 +14,15 @@ class Caculate{
             count += 1;
         }
 
-        sum *= 17;
+       // sum *= 17;
 
-            while (sum > 0) {
+            /*while (sum > 0) {
                 array[j] = sum % 2;
                 sum /= 2;
                 j++;
-            }
+            }*/
 
-        for(; j >= 0; j--)
-            System.out.println(array[j]);
+        System.out.println(sum);
         return array;
     }
 }
