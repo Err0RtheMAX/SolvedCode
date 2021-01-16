@@ -12,30 +12,23 @@ public class BOJ10162 {
         int c = 10;
         int[] count = new int[3];
 
-        while(time > 0) {
-            if (time > 300 && time % a != 0) {
+        while(time >= c) {
+            if (time >= a) {
                 time -= a;
                 ++count[0];
-                //continue;
             }
 
-            else if (time > 60 && time < 300 && time % b != 0) {
+            else if (time >= b) {
                 time -= b;
                 ++count[1];
-                continue;
             }
 
-            else if (time > 10 && time < 60 && time % c != 0){
+            else if (time >= c){
                 time -= c;
                 ++count[2];
-                //continue;
             }
 
-
         }
-
-
-        for(int i = 0; i < count.length; i++)
-            System.out.println(count[i]);
+            System.out.println(time == 0 ? count[0] + " " + count[1] + " " + count[2] : -1);
     }
 }
